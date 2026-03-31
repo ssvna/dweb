@@ -7,11 +7,17 @@
 </head>
 <body>
     <h1>MAHASISWA STIKOM PGRI BANYUWANGI BELAJAR HTML </h1>
+    <h2>MAHASISWA STIKOM PGRI BANYUWANGI BELAJAR HTML </h2>
+    <h3>MAHASISWA STIKOM PGRI BANYUWANGI BELAJAR HTML </h3>
+    <h4>MAHASISWA STIKOM PGRI BANYUWANGI BELAJAR HTML </h4>
+
     <p>Belajar HTML itu menyenangkan!</p>
     <i>TEXT MIRING SAM</i>
     <br>
     <b>TEXT TEBAL SAM</b>
-    <BR>
+    <BR> <!--- BREAK -->
+    <hr><hr> <!--- GARIS PEMISAH -->
+    <BR> <!--- BREAK-->
     <b><I>TEXT MIRING DAN TEBAL SAM</I></b>
     <ul> ULISTED LIST
         <li>Herlambang</li>
@@ -28,5 +34,134 @@
         EMAIL : <input type="email" name="email">
     </FORM>
     <button type="button">Login</button>
+    <br>
+    <em>Ini adalah teks miring</em> <br>
+    <mark>Ini adalah teks yang ditandai</mark> <br>
+    <small>Ini adalah teks kecil</small> <br>
+    <del>Ini adalah teks yang dihapus</del> <br>
+    <ins>Ini adalah teks yang disisipkan</ins> <br>
+    <sub>Ini adalah teks subscript</sub> <br>
+    <sup>Ini adalah teks superscript</sup> <br>
+    <kbd>Ini adalah teks keyboard</kbd> <br>
+    <code>Ini adalah teks kode</code> <br>
+    <pre>Ini adalah teks preformatted</pre> <br>
+    <var>Ini adalah teks variabel</var> <br>
+    <samp>Ini adalah teks sampel</samp> <br>
+    <a href="https://www.stikom-bwi.ac.id">Kunjungi STIKOM PGRI BANYUWANGI</a> <br>
+    <a href="#section"> Link atas</a>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Herlambang</td>
+            <td>20</td>
+            <td>Banyuwangi</td>
+        </tr>
+        <tr>
+            <td>Yoga</td>
+            <td>21</td>
+            <td>Banyuwangi</td>
+        </tr>
+        <tr>
+            <td>Saputra</td>
+            <td>22</td>
+            <td>Banyuwangi</td>
+        </tr>
+    </table>
+    <textarea name="pesan" rows="4" cols="50">
+        Masukkan pesan Anda di sini...
+    </textarea>
+    <button type="submit">Kirim</button> <br>
+    <select name="pilihan">
+        <option value="option1">Pilihan 1</option>
+        <option value="option2">Pilihan 2</option>
+        <option value="option3">Pilihan 3</option>
+        <optgroup label="Grup Pilihan">
+            <option value="option4">Pilihan 4</option>
+            <option value="option5">Pilihan 5</option>
+        </optgroup>
+    </select>
+    <fieldset>
+        <legend>Informasi Pribadi</legend>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Safari">
+        <option value="Edge">
+        <option value="Opera">
+    </datalist>
+    <input list="browsers" name="browser" id="browser">
+    <output name="result" for="browser">Browser yang dipilih: </output> <br>
+    <img src="https://stikombanyuwangi.ac.id/images/image.png" alt="Logo STIKOM PGRI BANYUWANGI"><br>
+    <figure>
+        <img src="https://stikombanyuwangi.ac.id/images/image.png" alt="Logo STIKOM PGRI BANYUWANGI">
+        <figcaption>Logo STIKOM PGRI BANYUWANGI</figcaption>
+    </figure>
+    <map name="map1">
+        <area shape="rect" coords="34,44,270,350" alt="Area 1" href="https://www.stikom-bwi.ac.id">
+        <area shape="circle" coords="337,300,44" alt="Area 2" href="https://www.stikom-bwi.ac.id">
+        <area shape="poly" coords="290,172,333,250,300,330" alt="Area 3" href="https://www.stikom-bwi.ac.id">
+    </map>
+    <meta name="description" content="Ini adalah halaman HTML untuk belajar HTML">
+    <meta name="keywords" content="HTML, belajar HTML, STIKOM PGRI BANYUWANGI">
+    <meta name="author" content="Herlambang, Yoga, Saputra">
+    <p>------------</p>
+    <details>
+        <summary>Informasi Tambahan</summary>
+        <p>Ini adalah informasi tambahan yang dapat dilihat dengan mengklik summary.</p>
+        <dialog open>
+            <p>Ini adalah dialog yang terbuka.</p>
+            <button type="button" onclick="this.parentElement.close()">Tutup</button>
+    </details>
+    <progress value="70" max="100">70%</progress>
+    <meter value="0.7">70%</meter>
+    <blockquote>
+        <p>Ini adalah kutipan blok.</p>
+        <footer>— Sumber Kutipan</footer>
+    <q>Teks kutipan</q>
+    <cite>Ini adalah teks yang dikutip</cite>
+    <abbr title="Hypertext Markup Language">HTML</abbr> <br>
+    <address>
+        <p>Alamat:</p>
+        <p>Jl. Raya Banyuwangi No. 123</p>
+        <p>Banyuwangi, Indonesia</p>
+        <p>Email: info@stikom-bwi.ac.id</p>
+    </address>
+    <time datetime="2024-06-01T12:00">1 Juni 2024, 12:00</time>
+    <br> <data value="100">100</data>
+    <br> <bdi>Ini adalah teks yang diisolasi</bdi> <br>
+    <bdo> Teks Override</bdo>
+    <br> <ruby>
+        <rb>漢</rb>
+        <rp>（</rp>
+        <rt>kan</rt>
+        <rp>）</rp>
+    </ruby>
+    <wbr> <!--- Word Break Opportunity -->
+    <br>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the canvas element.
+    </canvas>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <br>
+    <embed> .../Readme.md </embed>
+    <object data=".../Readme.md" type="text/plain" width="300" height="200">
+        <p>Browser Anda tidak mendukung objek ini.</p>
+    <iframe src="https://www.stikom-bwi.ac.id" width="300" height="200">
+        <p>Browser Anda tidak mendukung iframe.</p>
+    </iframe>
+    
+
 </body>
 </html>
