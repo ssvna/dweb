@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .gallery-container {
+            padding: 50px 10%;
+            background-color: #f4f4f4;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .gallery-item {
+            background-color: white;
+        }
+
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            display:2block;
+            object-fit: cover;  
+        }
+        .desc {
+            padding: 15px;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    </style>
+
+    <section class="gallery-container">
+    <h2 style="text-align: center; font-family: sans-serif; margin-top: 50px;">BMW GALLERY</h2>
+    
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <a href="map.html">
+                <img src="mobil1.jpg" alt="M4" class="m4">
+            </a>
+            <div class="desc">BMW M4 Competition</div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="map.html">
+                <img src="mobil2.jpg" alt="X5">
+            </a>
+            <div class="desc">BMW X5 xDrive</div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="map.html">
+                <img src="mobil3.jpg" alt="i7">
+            </a>
+            <div class="desc">BMW i7 Electric</div>
+        </div>
+
+        <div class="gallery-item">
+            <a href="map.html">
+                <img src="mobil4.jpg" alt="Z4" class="z4">
+            </a>
+            <div class="desc">BMW Z4 Roadster</div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

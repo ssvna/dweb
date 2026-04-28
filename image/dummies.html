@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('bgmap.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .object-m4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            /* PENTING: Gunakan width tetap saat mapping agar koordinat tidak meleset */
+            /* Jika koordinat tadi diambil saat gambar ukuran 700px, pasang 700px di sini */
+            width: 1700px; 
+            height: auto;
+            display: block;
+            z-index: 10; /* Pastikan gambar berada di depan */
+        }
+
+        .Title {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: sans-serif;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="map-container">
+     <div class="Title">BMW M4 COMPETITION</div>
+
+    <img src="m4comp.png" usemap="#m4map" class="object-m4" alt="BMW M4 Competition">
+
+</div>
+
+</body>
+</html>
+
+
+
+<area shape="poly" 
+          coords="180,529, 188,547, 307,511, 290,502, 240,505, 179,527" 
+          href="lampu.html" 
+          alt="Lampu BMW M4">

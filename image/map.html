@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Object M4</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-image: url('bgmap.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .object-m4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1700px; 
+            height: auto;
+            display: block;
+            z-index: 10; 
+        }
+
+        .Title {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: sans-serif;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="map-container">
+     <div class="Title">BMW M4 COMPETITION</div>
+
+    <img src="m4comp.png" usemap="#m4map" class="object-m4" alt="BMW M4 Competition">
+
+    <map name="m4map">
+        <area shape="poly" 
+          coords="1389,457, 1489,492, 1507,481, 1520,480, 1523,464, 1513,463, 1490,454, 1397,456" 
+          href="https://www.alibaba.com/showroom/m4-tail-lights.html" 
+          alt="Lampu Belakang M4"
+          title="Belanja Lampu Belakang">
+        <area shape="poly" 
+          coords="180,529, 188,547, 307,511, 290,502, 240,505, 179,527" 
+          href="https://www.alibaba.com/search/page?spm=a2700.details.pageModule_fy23_pc_search_bar.keydown__Enter&SearchScene=proSearch&SearchText=bmw+m4+front+lamp&pro=true&from=pcDetailHeader" 
+          alt="Lampu BMW M4"
+          title="Belanja Lampu">
+        <area shape="poly" 
+              coords="157,524,166,657,276,642,301,560,390,513,479,562,513,639,1131,637,1161,560,1244,516,1351,563,1363,627,1546,637,1520,430,1355,407,1023,327,781,339,593,433,288,460,155,515" 
+              href="https://www.zerooffset.com.au/collections/bmw-m4?srsltid=AfmBOoq46uzx39qdm0ZrGMbZWpzywLekGVLFOko7An20IPQrFeNayCIl" 
+              alt="Bodykit"
+              title="Belanja Bodykit">
+        <area shape="circle" coords="392, 612, 96" href="https://autoplusindonesia.com/autoshow-velg/bmw-m4-bbs-ri-d-ring-20/?srsltid=AfmBOopwxcOw7rGhj5o-PMPx8aV-sTCLFe3D8IvyBIS_foeTCPG-aWx0" alt="Velg Depan" title="Belanja Velg">
+        <area shape="circle" coords="1248, 616, 91" href="https://autoplusindonesia.com/autoshow-velg/bmw-m4-bbs-ri-d-ring-20/?srsltid=AfmBOopwxcOw7rGhj5o-PMPx8aV-sTCLFe3D8IvyBIS_foeTCPG-aWx0" alt="Velg Belakang" title="Belanja Velg">
+
+    </map>
+</div>
+
+</body>
+</html>
